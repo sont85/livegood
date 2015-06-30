@@ -1,0 +1,59 @@
+extend layout
+
+block content
+  div#carousel-example-generic.carousel.slide(data-ride="carousel")
+    ol.carousel-indicators
+      li.active(data-target='#carousel-example-generic', data-slide-to='0')
+      li(data-target='#carousel-example-generic', data-slide-to='1')
+      li(data-target='#carousel-example-generic', data-slide-to='2')
+      li(data-target='#carousel-example-generic', data-slide-to='3')
+      li(data-target='#carousel-example-generic', data-slide-to='4')
+    .carousel-inner(role='listbox')
+      .item.active
+        img(src='http://livegoodinc.com/assets/m0-9b1cfb9b1d29506233191e199b595773.jpg', alt='...')
+        .carousel-caption
+      .item
+        img(src='http://livegoodinc.com/assets/m1-85aeba13103d439957cec75397b131da.jpg', alt='...')
+        .carousel-caption
+      .item
+        img(src='http://livegoodinc.com/assets/m2-196c71c6e9772d4e3a4aad8e782da86e.jpg', alt='...')
+        .carousel-caption
+      .item
+        img(src='http://livegoodinc.com/assets/m3-6a8280a5563c3062fcfba66106210274.jpg', alt='...')
+        .carousel-caption
+      .item
+        img(src='http://livegoodinc.com/assets/m4-a1c15acf60fe552ddc8cba726a385acc.jpg', alt='...')
+        .carousel-caption
+    a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
+      span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+      span.sr-only Previous
+    a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
+      span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+      span.sr-only Next
+
+  div.row.text-center
+    div.col-sm-4.text-center
+      a(href="#")
+        img.column-img.img-responsive.center-block(src="http://livegoodinc.com/assets/designer.jpg")
+      a.green-text(href='#') New Organic Supima Collection
+      p Live Good is one of the few companies in the world with access to Organic Supima cotton. Known as the “cashmere of cotton,” Supima’s longer strand length creates the softest and strongest cotton fabric available, retaining brilliant color and lustrous sheen.
+        span
+          a(href="#")
+            span.learn-more >> Learn More
+    div.col-sm-4.text-center
+      a(href="#")
+        img.column-img.img-responsive.center-block(src="http://livegoodinc.com/assets/designer.jpg")
+      a.green-text(href='#') 100% Certified Organic Product Line
+      p The harmful effects of chemical pesticides and fertilizers on human and environmental health have been well documented. Conscientious consumers look for natural products that have undergone rigorous inspection to earn the organic label.
+        span
+          a(href="#")
+            span.learn-more >> Learn More
+    div.col-sm-4.text-center
+      a(href="#")
+        img.column-img.img-responsive.center-block(src="http://livegoodinc.com/assets/mission.jpg")
+      a.green-text(href="#") Our Mission and Ethics
+      p To Live Good means to live both sustainably and well. Our pledge is to provide you with the tools and resources to enjoy a lifestyle that honors your own needs as well and those of the planet and the communities in which we live.
+        span
+          a(href="#")
+            span.learn-more >> Learn More
+      

@@ -1,0 +1,73 @@
+doctype html
+html
+  head
+    link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet')
+    link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
+    link(href='stylesheets/style.css' rel='stylesheet')
+  body
+    div.container
+      div.row
+        div.col-sm-6
+          a(href="#")
+            img.image-header(src='http://livegoodinc.com/assets/lglogo-d63a7197cc854147123451f355066fc8.png')
+        div.col-sm-3
+          div.input-group
+            input.hidden-xs.form-control(type='email', placeholder='Email: Join our list!')
+            span.hidden-xs.input-group-addon
+              span.fa.fa-envelope
+        div.col-sm-3.pull-right
+          a.gray-text.pull-right(href="#") LOGIN
+          br
+          a.gray-text.pull-right(href='#') SHOPPING BAG
+            img(src='http://livegoodinc.com/images/icon_bag.gif')
+      div.row
+        div.pull-right
+          ul.nav.nav-tabs
+            li
+              a.darker-gray-text(href='#') Products
+            li
+              a.darker-gray-text(href='/mission') Our Mission
+            li
+              a.darker-gray-text(href='#') Sustainability
+            li
+              a.darker-gray-text(href='#') Dye Process
+            li
+              a.darker-gray-text(href="#") Olympic Gold Standard
+            li
+              a.darker-gray-text(href='#') Press
+      block content
+  footer
+    div.container
+      div.row
+        span.footer-text FOLLOW US:
+        span.fa.fa-facebook.icon
+        span.fa.fa-twitter.icon
+        span.fa.fa-pinterest.icon
+        ul.nav.nav-tabs.pull-right
+          li
+            a.footer-text(href="#") HOME
+          li
+            a.footer-text(href="#") BLOG
+          li
+            a.footer-text(href="#") FAQ
+          li
+            a.footer-text(href="#") WHOLESALE
+          li
+            a.footer-text(href="#") SHIPPING & RETURN POLICY
+          li
+            a.footer-text(href="#") TERMS OF USE
+          li
+            a.footer-text(href="#") CONTACT US
+      div.row
+        div.col-sm-6
+          button.btn.btn-primary.btn-sm
+            span.fa.fa-facebook  Like
+          span.copyright 9,576 people like this. 
+            span
+              a(href="#") Sign Up 
+            to see what your friends like.
+        div.col-sm-6.pull-right
+          p.copyright COPYRIGHT © 2011-2012 LIVE GOOD, INC. ALL RIGHTS RESERVED.
+
